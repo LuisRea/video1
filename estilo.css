@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#lluvia {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-width: 100%; /*aca le decimos que nuestro video ocupe el 100% de ancho*/
+	min-height: 100%;/*aca le decimos que nuestro video ocupe el 100% de alto*/
+	z-index: -1;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+/*TRABAJANDO CON EL HEADER*/
+.cabecera {
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	position: sticky;
+	top: 0px;
+}
+.menu {
+	background-color: rgba(0,0,0,0);
+}
+.menu li {
+	display: inline-block;
+	border-right: 1px solid rgba(200,200,200, 0.3);
+}
+li.ultimoli {
+	border-right: 0px;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 25px 15px; 
+}
+.cabecera_texto {
+	padding: 100px 0px;
+
+}
+.cabecera_texto h1 {
+	font-size: 6em;
+	letter-spacing: -5px;
+}
+/*TRABAJANDO LA SECCION*/
+.seccion {
+	color: #fff;
+	padding: 70px;
+}
+.seccion h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+.seccion h4 {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+}
+.seccion p{
+	margin-bottom: 10px;
+	line-height: 1.5em;
+}
